@@ -1,0 +1,4 @@
+Model,CV_ROC_AUC,Train_ROC_AUC,Test_ROC_AUC,Overfitting_Gap,Test_PR_AUC,Test_Precision,Test_Recall,Test_F1,Test_Brier_Score,Total_Cost_Default_Thresh,Optimal_Threshold,Total_Cost_Optimal_Thresh,Financial_Cost_Savings_Pct
+Logistic Regression,0.8794,0.8805,0.8802,0.0003,0.7269,0.593,0.7757,0.6722,0.1315,2345000.0,0.5346,2334000.0,0.47
+Random Forest,0.9306,0.9999,0.9354,0.0645,0.8916,0.8727,0.7687,0.8174,0.067,1799000.0,0.3763,1685000.0,6.34
+XGBoost,0.9462,0.9786,0.9528,0.0258,0.9104,0.8245,0.8082,0.8162,0.0667,1604000.0,0.4357,1561000.0,2.68
